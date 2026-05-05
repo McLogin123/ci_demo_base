@@ -1,5 +1,3 @@
-function sum(a, b) {
-  return a + b;
-} 
+const sum = require('./sum');
 
-module.exports = sum;
+console.log("Resultado:", sum(2, 3));
